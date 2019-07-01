@@ -17,34 +17,32 @@ $(function(){
 			$('.two-menu a ').not($('#'+idx+'02')).removeClass('active01');
 			}
 			
-			$('#about01').click(function(){
-				$('html,body').animate({scrollTop:$('#about').offset().top},{queue:false,duration:500});
-				$('#about01').addClass('active');
-				$('.list-group-item').not($('#about01')).removeClass('active');
-			})
-			
-			$('#bread01').click(function(){
-				console.log(2);
-				$('html,body').animate({scrollTop:$('#bread').offset().top},{queue:false,duration:500});
-				$('#bread01').addClass('active');
-				$('.list-group-item').not($('#bread01')).removeClass('active');
-			})
-			
-			$('#term01').click(function(){
-				console.log(3);
-				console.log('about');
-				$('html,body').animate({scrollTop:$('#term').offset().top},{queue:false,duration:500});
-				$('#term01').addClass('active');
-				$('.list-group-item').not($('#term01')).removeClass('active');
-			})
-			
-			$('#bread02').click(function(){
-				$('html,body').animate({scrollTop:$('#bread').offset().top},{queue:false,duration:500});
-			})
-			
-			$('#term02').click(function(){
-				$('html,body').animate({scrollTop:$('#term').offset().top},{queue:false,duration:500});
-			})
 		});
 	});
+	
+	$('#about01').click(function(){
+		$('html,body').animate({scrollTop:$('#about').offset().top},{queue:false,duration:500});
+		$('#about01').addClass('active');
+		$('.list-group-item').not($('#about01')).removeClass('active');
+	})
+		
+	$('#bread01').click(function(){
+		$('html,body').animate({scrollTop:$('#bread').offset().top},{queue:false,duration:500});
+		$('#bread01').addClass('active');
+		$('.list-group-item').not($('#bread01')).removeClass('active');
+	})
+			
+	$('#term01').click(function(){
+		$('html,body').animate({scrollTop:$('#term').offset().top},{queue:false,duration:500});
+		$('#term01').addClass('active');
+		$('.list-group-item').not($('#term01')).removeClass('active');
+	})
+			
+	$('#bread02').click(function(){
+		$('html,body').animate({scrollTop:$('#bread').offset().top},{queue:false,duration:500});
+	})
+			
+	$('#term02').click(function(){
+		$('html,body').animate({scrollTop:$('#term').offset().top},{queue:false,duration:500});
+	})
 })
