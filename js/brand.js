@@ -19,11 +19,11 @@ $(function(){
 	});
 	
 	
-			$('#bread01').click(function(){
-				$('html,body').animate({scrollTop:$('#brand').offset().top},{queue:false,duration:500});
-			})
-			
-			$('#store01').click(function(){
-				$('html,body').animate({scrollTop:$('#store').offset().top},{queue:false,duration:500});
-			})
+	$('#brand01').click(function(){
+		$('html,body').animate({scrollTop:$('#brand').offset().top},{queue:false,duration:500});
+	})
+		
+	$('#store01').click(function(){
+		$('html,body').animate({scrollTop:$('#store').offset().top},{queue:false,duration:500});
+	})
 })
