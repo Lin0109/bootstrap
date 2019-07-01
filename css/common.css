@@ -454,6 +454,8 @@ footer p{margin-bottom: 0px;}
 		font-size: 14px;
 		line-height: 1.8;
 	}
+	.dropdown-menu.dropdown-menu-bullet:before,
+	.dropdown-menu.dropdown-menu-bullet:after{display: none;}
 }
 @media (min-width: 768px) {
 	.header-nav{padding: 20px 0;}
