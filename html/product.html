@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>产品展示</title>
+		<link rel="stylesheet" href="../css/basic.css" />
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/product.css" />
+		<link rel="stylesheet" href="../css/pe-icon-7-stroke.css" />
+		<script type="text/javascript" src="../js/jquery.min.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="../js/commonArr.js" ></script>
+		<script type="text/javascript" src="../js/common.js" ></script>
+		<script type="text/javascript" src="../js/productArr.js" ></script>
+		<script type="text/javascript" src="../js/product.js" ></script>
+		<script src="https://use.fontawesome.com/46d3cb9b4f.js"></script>
+	</head>
+	<body>
+		<header class="navbar-fixed-top">
+			<nav class="navbar navbar-default header-nav">
+				<div class="container">
+					<div class="row">
+						<!--logo-->
+						<div class="navbar-header">
+							<a href="index.html" class="met-logo pull-xs-left block p-y-5" title="美味果茶">
+								<img src="../img/logo.png" alt="美味果茶" />
+							</a>
+							<!--min导航栏-->
+							<button type="button" class="navbar-toggle hamburger collapsed p-x-5" data-target="#head_nav_collapse"  data-toggle="collapse" aria-expanded="false" >
+								<span class="sr-only"></span>
+								<span class="hamburger-bar"></span>
+						</button>
+						
+						</div>
+						<!--导航栏-->
+						<div class="navbar-collapse pull-md-right collapse p-0" id="head_nav_collapse" style="max-height: 300px;height: 0px;" aria-expanded="false" >
+							<ul class="nav navbar-nav navlist">
+								<li class="nav-item">
+									<a href="../index.html" title="网站首页" class="nav-link">网站首页</a>
+								</li>
+								<li class="nav-item dropdown m-l-20">
+									<a href="about.html" title="关于我们" class="nav-link dropdown-toggle">关于我们</a>
+									<div class="dropdown-menu dropdown-menu-right dropdown-menu-bullet two-menu">
+										<a href="about.html" id="about02" class="dropdown-item border-top1 hassub" title="关于CHASIR">关于CHASIR</a>
+										<a href="about.html#bread" id="bread02" class="dropdown-item border-top1 hassub" title="欧包的发展历程">欧包的发展历程</a>
+										<a href="about.html#term" id="term02" class="dropdown-item border-top1 hassub" title="精英团队">精英团队</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown m-l-20">
+									<a href="product.html" title="产品展示" class="nav-link">产品展示</a>
+								</li>
+								<li class="nav-item dropdown m-l-20">
+									<a href="brand.html" title="品牌形象" class="nav-link dropdown-toggle">品牌形象</a>
+									<div class="dropdown-menu dropdown-menu-right dropdown-menu-bullet two-menu">
+										<a href="#" class="dropdown-item border-top1 hassub" title="品牌形象">品牌形象</a>
+										<a href="#" class="dropdown-item border-top1 hassub" title="店面形象">店面形象</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown m-l-20">
+									<a href="news.html" title="新闻资讯" class="nav-link dropdown-toggle">新闻资讯</a>
+									<div class="dropdown-menu dropdown-menu-right dropdown-menu-bullet two-menu">
+										<a href="#" class="dropdown-item border-top1 hassub" title="行业资讯">行业资讯</a>
+										<a href="#" class="dropdown-item border-top1 hassub" title="公司新闻">公司新闻</a>
+									</div>
+								</li>
+								<li class="nav-item m-l-20">
+									<a href="com.html" title="加盟合作" class="nav-link">加盟合作</a>
+								</li>
+								<li class="nav-item m-l-20">
+									<a href="tel.html" title="联系我们" class="nav-link">联系我们</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<div class="section banner_met banner-ny-h">
+			<div class="banner">
+				<div class="banner-warpper">
+					<div class="banner-item">
+						<img src="../img/header.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="subcolumn_nav_met div_fister">
+			<div class="container">
+				<div class="row">
+					<div class="subcolumn_title">
+						产品展示
+					</div>
+					<div class="subcolumn-nav">
+						<ul class="subcolumn_nav_met_ul m-b-0 ulstyle">
+							<li><a href="product.html" class="active link" id="all">全部</a></li>
+							<li><a href="#" class="notsub link" id="juice">美味果茶</a></li>
+							<li><a href="#" class="notsub link" id="bread">欧式软包</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="product_list">
+			<div class="container popular-product right">
+				<div class="row">
+					<ul class="chapList met-page-ajax blocks-xxl-3 blocks-lg-3 blocks-md-2 blocks-xs-1"></ul>
+				</div>
+			</div>
+		</div>
+				
+		<footer class="link_met text-xs-center">
+			<div class="container p-y-15">
+				<ul class="breadcrumb p-0 link-img m-0">
+					<li class="breadcrumb-item">友情链接：</li>
+					<li class="breadcrumb-item split">
+						<a href="#" title="水果奶茶">
+							<span>水果奶茶</span>
+						</a>
+					</li>
+					<li class="breadcrumb-item split">
+						<a href="#" title="奶茶加盟">
+							<span>奶茶加盟</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		
+		<div class="foot_nav_met met-index-body">
+			<div class="container">
+				<div class="div1 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<h4 class="alltitle">
+						CHASIR诚邀大家的光临			
+					</h4>
+					<p class="desconediv">
+						CHASIR手榨柠檬茶为主打品牌茶，在成立之初就开创了合作连锁式经营（含加盟）模式，1年间快速吸引了众多家注重健康饮品的投资商，中国首家茶汤底配鲜果现榨饮品，成...
+					</p>
+					<div class="icondiv tubiao">
+						<!--qq-->
+						<a href="#">
+							<i class="fa fa-qq"></i>
+						</a>
+						<!--微信-->
+						<a href="#">
+							<i class="fa fa-weixin"></i>
+						</a>
+						<!--微博-->
+						<a href="#">
+							<i class="fa fa-weibo"></i>
+						</a>
+					</div>
+				</div>
+				<div class="div2 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<h4 class="alltitle">
+						新闻资讯
+					</h4>
+					<ul>
+						<li>
+							<i class="icon fa-angle-right"></i>
+							<a href="#">亚洲将于2021年 成为</a>
+						</li>
+						<li>
+							<i class="icon fa-angle-right"></i>
+							<a href="#">开一家奶茶店需要多少资金</a>
+						</li>
+						<li>
+							<i class="icon fa-angle-right"></i>
+							<a href="#">2021年 亚洲将成为全</a>
+						</li>
+						<li>
+							<i class="icon fa-angle-right"></i>
+							<a href="#">奶茶加盟店在未来的发展趋</a>
+						</li>
+						<li>
+							<i class="icon fa-angle-right"></i>
+							<a href="#">CHASIR是如何做到四</a>
+						</li>
+					</ul>
+				</div>
+				<div class="div3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<h4 class="alltitle">
+						产品展示
+					</h4>
+					<ul class="breadcrumb p-0 link-img m-0 blocks-md-4 blocks-lg-4 blocks-xxl-4 blocks-xs-4"></ul>
+				</div>
+				<div class="div4 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<h4 class="alltitle">
+						联系我们
+					</h4>
+					<p class="btnp">
+						湖南省长沙市洋湖总部经济区
+					</p>
+					<p class="btnp">
+						000-000-0000
+					</p>
+					<p class="btnp">
+						email@email.mt
+					</p>
+					<p class="btnp">
+						00000000
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="foot_info_met border-top1">
+			<div class="container text-xs-center">
+				<p>我的网站 版权所有 2008-2018 湘ICP备8888888</p>
+				<p>本站内容、图片、视频为网站模板演示数据，如有涉及侵犯版权，请联系我们提供书面反馈，我们核实后会立即删除。</p>
+				<div class="powered_by_metinfo">
+					Powered by 
+					<b><a href="#">MetInfo 6.2.0</a></b> 
+					©2008-2019 &nbsp;
+					<a href="#">.cn</a>
+				</div>
+				<ul class="m-t-10 p-0"></ul>
+			</div>
+		</footer>
+		
+		<button type="button" class="btn btn-icon btn-primary btn-squared back_top met-scroll-top" style="display: none;">
+			<i class="icon pe-7s-angle-up" aria-hidden="true"></i>
+		</button>
+				
+	</body>
+</html>

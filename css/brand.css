@@ -1,0 +1,40 @@
+.img_list{
+	position: relative;
+	/*height: 320px;*/
+	perspective-origin: 50% 689px;
+	margin: 0px -0.9375rem;
+}
+.img_list .brand-item-wrap{
+	padding: 10px;
+}
+.img_list .brand-item-wrap .brand-item{
+	position: relative;
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+}
+.img_list .brand-item-wrap .brand-item img{
+	width: 100%;
+	height: auto;
+	transition: all .7s ease 0s;
+}
+.brand-item a p{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 0px;
+	line-height: 64px;
+	text-align: center;
+	margin: 0px;
+	background-color: rgba(106, 204, 181, 0.7);
+	color: #FFFFFF;
+	font-size: 19px;
+	letter-spacing: 2px;
+}
+.brand-item:hover img{
+	transform: scale(1.2);
+	transition: all .5s linear;
+}
+.brand-item:hover a p{
+	height: 64px;
+	transition: all .3s linear;
+}

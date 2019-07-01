@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<!--<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Chasir</title>
+		<link rel="stylesheet" href="css/basic.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="css/pe-icon-7-stroke.css" />
+		<link href="https://mb.mituo.cn/mui487/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/indexArr.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script src="https://use.fontawesome.com/46d3cb9b4f.js"></script>
+		<!--<script type="text/javascript" src="js/holder.js" ></script>-->
+	</head>
+	<body>
+		<header class="navbar-fixed-top">
+			<nav class="navbar navbar-default header-nav">
+				<div class="container">
+					<div class="row">
+						<!--logo-->
+						<div class="navbar-header">
+							<a href="index.html" class="met-logo pull-xs-left block p-y-5" title="美味果茶">
+								<img src="img/logo.png" alt="美味果茶" />
+							</a>
+							<!--min导航栏-->
+							<button type="button" class="navbar-toggle hamburger collapsed p-x-5" data-target="#head_nav_collapse"  data-toggle="collapse" aria-expanded="false" >
+								<span class="sr-only"></span>
+								<span class="hamburger-bar"></span>
+						</button>
+						
+						</div>
+						<!--导航栏-->
+						<div class="navbar-collapse pull-md-right collapse p-0" id="head_nav_collapse" style="height: 0px;" aria-expanded="false" >
+							<ul class="nav navbar-nav navlist">
+								<li class="nav-item">
+									<a href="index.html" title="网站首页" class="nav-link">网站首页</a>
+								</li>
+								<li class="nav-item dropdown m-l-20">
+									<a href="html/about.html" title="关于我们" class="nav-link dropdown-toggle">关于我们</a>
+									<div class="dropdown-menu dropdown-menu-right dropdown-menu-bullet two-menu">
+										<a href="html/about.html" class="dropdown-item border-top1 hassub" title="关于CHASIR">关于CHASIR</a>
+										<a href="html/about.html#bread" class="dropdown-item border-top1 hassub" title="欧包的发展历程">欧包的发展历程</a>
+										<a href="html/about.html#term" class="dropdown-item border-top1 hassub" title="精英团队">精英团队</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown m-l-20">
+									<a href="html/product.html" title="产品展示" class="nav-link">产品展示</a>
+								</li>
+								<li class="nav-item dropdown m-l-20">
+									<a href="html/brand.html" title="品牌形象" class="nav-link dropdown-toggle">品牌形象</a>
+									<div class="dropdown-menu dropdown-menu-right dropdown-menu-bullet two-menu">
+										<a href="#" class="dropdown-item border-top1 hassub" title="品牌形象">品牌形象</a>
+										<a href="#" class="dropdown-item border-top1 hassub" title="店面形象">店面形象</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown m-l-20">
+									<a href="news.html" title="新闻资讯" class="nav-link dropdown-toggle">新闻资讯</a>
+									<div class="dropdown-menu dropdown-menu-right dropdown-menu-bullet two-menu">
+										<a href="#" class="dropdown-item border-top1 hassub" title="行业资讯">行业资讯</a>
+										<a href="#" class="dropdown-item border-top1 hassub" title="公司新闻">公司新闻</a>
+									</div>
+								</li>
+								<li class="nav-item m-l-20">
+									<a href="com.html" title="加盟合作" class="nav-link">加盟合作</a>
+								</li>
+								<li class="nav-item m-l-20">
+									<a href="tel.html" title="联系我们" class="nav-link">联系我们</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<div data-name="首页轮播" data-id="banner" class="section banner-met" m-id="5" m-type="banner">
+			<div id="carousel-example-generic" class="carousel slide banner" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				</ol>				
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+				    <div class="item active slide-active"></div>
+				    <div class="item slide-next"></div>
+				</div>
+				<!--左右按钮-->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<i class="icon pe-7s-angle-left"></i>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    <i class="icon pe-7s-angle-right"></i>
+				</a>
+				<!--下滑查看下一页-->
+				<div class="banner-next" m-id="5" m-type="banner">
+					<span class="next-text">
+						滑动查看下一页
+					</span>
+					<span class="next-icon">
+						<i class="icon pe-7s-angle-down"></i>
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		<section class="product-list lazy full bgcolor active">
+			<div class="container">
+				<div class="row">
+					<div class="title-box">
+						<div class="title-name">
+							<strong>产品</strong>
+							<span>PRODUCTS</span>
+						</div>
+						<div class="title-nav picture-class">
+							<a class="active" href="#" title="全部">全部</a>
+							<i>/</i>
+							<a href="#" title="美味果茶">美味果茶</a>
+							<i>/</i>
+							<a href="#" title="欧式软包">欧式软包</a>
+						</div>
+					</div>
+					<div class="picture-box">
+						<div class="picture-list active invisible">
+							<ul class="picutre-ul blocks-xxl-4 blocks-lg-4 blocks-md-2 blocks-xxl-1">
+								<li class="picutre-li">
+									<a href="#">
+										<font>
+											<img src= "img/products01.jpg" />
+											<div class="zhezhao">
+												<div class="desc">
+													牛角包顾名思义就是外形酷似牛角的面包，牛角包需要用料面粉：300G，酵母：6G，糖：15G，盐：6G，牛奶：180ML
+												</div>
+											</div>
+										</font>
+										<span>
+											<em>
+												<i class="fa fa-angle-right"></i>
+											</em>
+											<b>蜗牛间的爱意</b>
+											<p>&nbsp;</p>
+										</span>
+									</a>
+								</li>
+								<li class="picutre-li">
+									<a href="#">
+										<font>
+											<img src= "img/products02.jpg" />
+											<div class="zhezhao">
+												<div class="desc">
+													牛角包顾名思义就是外形酷似牛角的面包，牛角包需要用料面粉：300G，酵母：6G，糖：15G，盐：6G，牛奶：180ML
+												</div>
+											</div>
+										</font>
+										<span>
+											<em>
+												<i class="fa fa-angle-right"></i>
+											</em>
+											<b>绿风中的一抹黄</b>
+											<p>&nbsp;</p>
+										</span>
+									</a>
+								</li>
+								<li class="picutre-li">
+									<a href="#">
+										<font>
+											<img src= "img/products03.jpg" />
+											<div class="zhezhao">
+												<div class="desc">
+													来自新西兰的奶粉搭配马自拉干酪粉加入日本静冈抹茶粉，放入天然奶油中打发，口感滑顺咸香，搭配桂花乌龙饮用，别有一番滋味。
+												</div>
+											</div>
+										</font>
+										<span>
+											<em>
+												<i class="fa fa-angle-right"></i>
+											</em>
+											<b>芒果奶盖桂花乌龙</b>
+											<p>&nbsp;</p>
+										</span>
+									</a>
+								</li>
+								<li class="picutre-li">
+									<a href="#">
+										<font>
+											<img src= "img/products04.jpg" />
+											<div class="zhezhao">
+												<div class="desc">
+													来自日本静冈县的香醇抹茶，搭配台湾万丹乡的饱满红豆，倒入满满的牛奶，红豆甜，抹茶香，甜蜜在心头。
+												</div>
+											</div>
+										</font>
+										<span>
+											<em>
+												<i class="fa fa-angle-right"></i>
+											</em>
+											<b>红豆抹茶鲜奶</b>
+											<p>&nbsp;</p>
+										</span>
+									</a>
+								</li>
+								<li class="picutre-li">
+									<a href="#">
+										<font>
+											<img src= "img/products05.jpg" />
+											<div class="zhezhao">
+												<div class="desc">
+													CHASIR满足水果绿妍奶茶加盟饮品，主料：新鲜青柠檬、草莓、鲜橙、百香果等水果、奶茶、草本茶底、糖、冰等原味原料，浓香，刺激味觉，欲罢不能的佳饮，满足水果绿妍碳酸类饮料具有良好的...
+												</div>
+											</div>
+										</font>
+										<span>
+											<em>
+												<i class="fa fa-angle-right"></i>
+											</em>
+											<b>红豆牛奶冰沙</b>
+											<p>&nbsp;</p>
+										</span>
+									</a>
+								</li>
+								<li class="picutre-li">
+									<a href="#">
+										<font>
+											<img src= "img/products06.jpg" />
+											<div class="zhezhao">
+												<div class="desc">
+													秘密系列为果汁饮品，口味待您亲自来体验来发觉，文字叙述难以说明它们的美味，只因他们是”不能说的秘密”CHASIR满足水果绿妍奶茶加盟饮品，主料：新鲜青柠檬、草莓、鲜橙、百香果等水果...
+												</div>
+											</div>
+										</font>
+										<span>
+											<em>
+												<i class="fa fa-angle-right"></i>
+											</em>
+											<b>盛夏缤纷果茶</b>
+											<p>&nbsp;</p>
+										</span>
+									</a>
+								</li>
+								<li class="picutre-li">
+									<a href="#">
+										<font>
+											<img src= "img/products07.jpg" />
+											<div class="zhezhao">
+												<div class="desc">
+													柑普牛乳茶味道香甜绵密，奶香和茶味在嘴里久久不能忘掉，香浓加上奶盖独特的口感，每次路过奶茶店都忍不住想要去买上一杯，即便是排老长的队伍也愿意。柑普牛乳茶采用立传茶独特的奶茶主...
+												</div>
+											</div>
+										</font>
+										<span>
+											<em>
+												<i class="fa fa-angle-right"></i>
+											</em>
+											<b>柑普牛乳茶</b>
+											<p>&nbsp;</p>
+										</span>
+									</a>
+								</li>
+								<li class="picutre-li">
+									<a href="#">
+										<font>
+											<img src= "img/products08.jpg" />
+											<div class="zhezhao">
+												<div class="desc">
+													一直以来我最钟情的都是口感稍有苦涩的黑巧。如果可以再搭配上一杯温牛奶，感觉那一刻时间似乎也已经开始全然融化开来。虽然巧克力的热量让很多人都敬而远之，但不可否认的是在放肆的享受...
+												</div>
+											</div>
+										</font>
+										<span>
+											<em>
+												<i class="fa fa-angle-right"></i>
+											</em>
+											<b>巧克力脏脏包</b>
+											<p>&nbsp;</p>
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="more">
+								<a href="#">
+									<span>
+										MORE
+										<em class="fa fa-angle-right"></em>
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<div data-name="公司简介" class="about-list abouts section met-index-body bgpic">
+			<div class="container container-box">
+				<div class="row">
+					<div class="about_text">
+						<div class="col-sm-6 about-t invisible">
+							<h3 class="about_title">关于CHASIR</h3>
+							<p class="about_desc">
+                        		CHASIR品牌创立于2017年4月4日，隶属实业投资有限公司旗下品牌。
+                        		主打健康、时尚、品牌于一体绿色无忧的消费饮品，
+                        		精挑鲜摘柠檬、百香果、芒果、车里子、草莓、番石榴、火龙果等几十种国内主流时尚水果配合五代传承中药自熬茶汤以及自熬糖浆调制而成。
+                        		CHASIR手榨柠檬茶为主打品牌茶，在成立之初就开创了合作连锁式经营（含加盟）模式，1年间快速吸引了众多家注重健康饮品的投资商，
+                        		中国首家茶汤底配鲜果现榨饮品，成为老少咸宜最青睐的健康饮品风向标。不做转瞬即逝的“网红”品牌，只想做可以传承的百年品牌，
+                        		他们决定，用心、用一辈子去做这件事，让每个人都能尝到健康、好喝的柠檬茶。图片关键词立传茶饮品介绍立传手榨柠檬茶                    
+							</p>
+							<a href="#" class="set_1_btn Vbtn-1" title="关于CHASIR">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+									<rect x="0" y="0" fill="none" width="100%" height="100%"></rect>
+								</svg>
+								<span>MORE</span>
+							</a>
+						</div>
+						<div class="col-sm-6 about-img invisible">
+							<img src="img/introduce01.jpg" alt="关于CHASIR" style="max-width: 100%;" />
+						</div>
+					</div>
+					<div class="about_num invisible">
+						<div class="about_num_box col-xs-6 col-sm-3">
+							<div class="about_num_pad">
+								<div class="about_num_icon col-xs-4">
+									<img src="img/icon01 .png" alt="产品系列" />
+								</div>
+								<div class="about_num_txt col-xs-8">
+									<h4 class="about_num_txt_title">产品系列</h4>
+									<div class="about_num_txt_num">
+										<ul class="dataNums inrow">
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="about_num_box col-xs-6 col-sm-3">
+							<div class="about_num_pad">
+								<div class="about_num_icon col-xs-4">
+									<img src="img/icon02.png" alt="连锁门店" />
+								</div>
+								<div class="about_num_txt col-xs-8">
+									<h4 class="about_num_txt_title">连锁门店</h4>
+									<div class="about_num_txt_num">
+										<ul class="dataNums inrow">
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="about_num_box col-xs-6 col-sm-3">
+							<div class="about_num_pad">
+								<div class="about_num_icon col-xs-4">
+									<img src="img/icon03.png" alt="员工" />
+								</div>
+								<div class="about_num_txt col-xs-8">
+									<h4 class="about_num_txt_title">员工</h4>
+									<div class="about_num_txt_num">
+										<ul class="dataNums inrow">
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="about_num_box col-xs-6 col-sm-3">
+							<div class="about_num_pad">
+								<div class="about_num_icon col-xs-4">
+									<img src="img/icon04.png" alt="创立时间" />
+								</div>
+								<div class="about_num_txt col-xs-8">
+									<h4 class="about_num_txt_title">创立时间</h4>
+									<div class="about_num_txt_num">
+										<ul class="dataNums inrow">
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+											<li class="dataOne">
+												<div class="dataBoc">
+													<div class="tt">
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+														<span class="num0">0</span>
+														<span class="num1">1</span>
+														<span class="num2">2</span>
+														<span class="num3">3</span>
+														<span class="num4">4</span>
+														<span class="num5">5</span>
+														<span class="num6">6</span>
+														<span class="num7">7</span>
+														<span class="num8">8</span>
+														<span class="num9">9</span>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div data-name="首页服务" class="service_list section met-index-product met-index-body met-index-newproduct bgcolor heightgd">
+			<div class="wrapper">
+				<div class="container">
+					<div class="slideshow">
+						<div class="slideshow-left">
+							<div class="Lslide" style="top: 0px;">
+								<div class="Lslide-content">
+									<h2 class="invisible">美味果茶</h2>
+									<p class="invisible">
+										CHASIR满足水果绿妍奶茶加盟饮品，主料：新鲜青柠檬、草莓、鲜橙、百香果等水果、奶茶、草本茶底、糖、冰等原味原料，浓香，刺激味觉，欲罢不能的佳饮，满足水果绿妍碳酸类饮料具有良好的口感和消暑效果，可补充人体所需元素水分，口感极佳。当下最保健饮品。满足水果绿妍饮品，现场特别制造。售价：大杯18元，门店折扣优惠多多，实时打折，每天优惠不停，懒得跑腿，那就让美团小哥为你跑吧。
+										CHASIR冰茶，草本茶底，以不变精细匠心，做健康满足水果绿妍。立传满足水果绿妍从融汇营养健康学与华夏古典茶文化中，贯通二十一世纪最佳的珍珠奶茶技艺，适合现代国人的口感习惯，推出“古茶今做”的形式，这一改变在茶珍珠奶茶界变为行业内首个以全套规范为立传茶的满足水果绿妍加盟饮品品牌。
+									</p>
+									<div class="button invisible">
+										<a href="#" title="美味果茶" target="_self">
+											<p>MORE</p>
+											<i class="fa fa-chevron-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="Lslide" style="top: -600px;">
+								<div class="Lslide-content">
+									<h2 class="animation-slide-top apper-no-repeat">欧式软包</h2>
+									<p class="animation-slide-top apper-no-repeat">
+										CHASIR品牌横空而出，集近10年经验的欧包烘焙师傅参与研发，资深空间/平面设计师打造其视觉体系，并注入其“遇见另一半的爱意”的品牌主题灵魂，从前端到后端，从立项到成熟，前后耗时近一年，一经推出，即有投资家拿下深圳区域代理合作。
+									</p>
+									<div class="button animation-slide-bottom apper-no-repeat">
+										<a href="#" title="欧式软包" target="_self">
+											<p>MORE</p>
+											<i class="fa fa-chevron-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slideshow-right">
+							<div class="Rslide" style="background: url(img/juice01.jpg) center center/cover no-repeat; top: 0px;"></div>
+							<div class="Rslide" style="background: url(img/bread01.jpg) center center/cover no-repeat; top: 600px;"></div>
+						</div>
+						<div class="control">
+							<div class="oncontrol control-top invisible">
+								<i class="fa fa-circle-o" aria-hidden="true"></i>
+							</div>
+							<div class="oncontrol control-bottom invisible"> 
+								<i class="fa fa-arrow-down" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div data-name="新闻内容" class="news_list met-index-body">
+			<div class="container">
+				<ul class="items blocks-100 blocks-md-2 blocks-lg-3 blocks-xxl-3"></ul>
+			</div>
+		</div>
+		
+		<footer class="link_met text-xs-center">
+			<div class="container p-y-15">
+				<ul class="breadcrumb p-0 link-img m-0">
+					<li class="breadcrumb-item">友情链接：</li>
+					<li class="breadcrumb-item split">
+						<a href="#" title="水果奶茶">
+							<span>水果奶茶</span>
+						</a>
+					</li>
+					<li class="breadcrumb-item split">
+						<a href="#" title="奶茶加盟">
+							<span>奶茶加盟</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		
+		<div class="foot_nav_met met-index-body">
+			<div class="container">
+				<div class="div1 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<h4 class="alltitle">
+						CHASIR诚邀大家的光临			
+					</h4>
+					<p class="desconediv">
+						CHASIR手榨柠檬茶为主打品牌茶，在成立之初就开创了合作连锁式经营（含加盟）模式，1年间快速吸引了众多家注重健康饮品的投资商，中国首家茶汤底配鲜果现榨饮品，成...
+					</p>
+					<div class="icondiv tubiao">
+						<!--qq-->
+						<a href="#">
+							<i class="fa fa-qq"></i>
+						</a>
+						<!--微信-->
+						<a href="#">
+							<i class="fa fa-weixin"></i>
+						</a>
+						<!--微博-->
+						<a href="#">
+							<i class="fa fa-weibo"></i>
+						</a>
+					</div>
+				</div>
+				<div class="div2 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<h4 class="alltitle">
+						新闻资讯
+					</h4>
+					<ul>
+						<li>
+							<i class="icon fa-angle-right"></i>
+							<a href="#">亚洲将于2021年 成为</a>
+						</li>
+						<li>
+							<i class="icon fa-angle-right"></i>
+							<a href="#">开一家奶茶店需要多少资金</a>
+						</li>
+						<li>
+							<i class="icon fa-angle-right"></i>
+							<a href="#">2021年 亚洲将成为全</a>
+						</li>
+						<li>
+							<i class="icon fa-angle-right"></i>
+							<a href="#">奶茶加盟店在未来的发展趋</a>
+						</li>
+						<li>
+							<i class="icon fa-angle-right"></i>
+							<a href="#">CHASIR是如何做到四</a>
+						</li>
+					</ul>
+				</div>
+				<div class="div3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<h4 class="alltitle">
+						产品展示
+					</h4>
+					<ul class="breadcrumb p-0 link-img m-0 blocks-md-4 blocks-lg-4 blocks-xxl-4 blocks-xs-4"></ul>
+				</div>
+				<div class="div4 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<h4 class="alltitle">
+						联系我们
+					</h4>
+					<p class="btnp">
+						湖南省长沙市洋湖总部经济区
+					</p>
+					<p class="btnp">
+						000-000-0000
+					</p>
+					<p class="btnp">
+						email@email.mt
+					</p>
+					<p class="btnp">
+						00000000
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="foot_info_met border-top1">
+			<div class="container text-xs-center">
+				<p>我的网站 版权所有 2008-2018 湘ICP备8888888</p>
+				<p>本站内容、图片、视频为网站模板演示数据，如有涉及侵犯版权，请联系我们提供书面反馈，我们核实后会立即删除。</p>
+				<div class="powered_by_metinfo">
+					Powered by 
+					<b><a href="#">MetInfo 6.2.0</a></b> 
+					©2008-2019 &nbsp;
+					<a href="#">.cn</a>
+				</div>
+				<ul class="m-t-10 p-0"></ul>
+			</div>
+		</footer>
+		
+		<button type="button" class="btn btn-icon btn-primary btn-squared back_top met-scroll-top" style="display: none;">
+			<i class="icon pe-7s-angle-up" aria-hidden="true"></i>
+		</button>
+		
+		
+		
+	</body>
+</html>

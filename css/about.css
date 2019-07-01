@@ -1,0 +1,40 @@
+/*标题*/
+.subcolumn_nav_met .about_title{
+	padding-bottom: 21px;
+	font-size: 20px;
+	color: #666666;
+}
+
+/*内容*/
+.show_met .show_content p{
+	color: rgb(127,127,127);
+}
+.show_met .show_content p img{
+	white-space: normal;
+	width: 488px;
+	height: 300px;
+}
+
+.list-group{
+	position: fixed;
+	top: 300px;
+	z-index: 5;
+	text-align: center;
+	margin-left: -5px;
+}
+.list-group .list-group-item{
+	padding: 10px 5px;
+}
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+	background-color: #6ACCB5;
+	border-color: #6ACCB5;
+}
+
+
+@media (max-width: 767px) {
+	.list-group{
+		display: none;
+	}
+}
